@@ -10,6 +10,7 @@ class AppBarWidget extends PreferredSize {
       : super(
           preferredSize: Size.fromHeight(250),
           child: Container(
+            margin: EdgeInsets.only(bottom: 45.0),
             height: 250.0,
             child: Stack(
               children: [
@@ -41,7 +42,7 @@ class AppBarWidget extends PreferredSize {
                         decoration: BoxDecoration(
                           border: Border.all(
                             width: 3,
-                            color: AppColors.stroke.withOpacity(0.8)
+                            color: AppColors.stroke.withOpacity(0.8),
                           ),
                           image: DecorationImage(
                             image: NetworkImage("https://avatars.githubusercontent.com/u/49308697?v=4"),
@@ -54,7 +55,8 @@ class AppBarWidget extends PreferredSize {
                 ),
                 Align(
                   alignment: Alignment(0.0, 1.25),
-                  child: ScoreCard())
+                  child: ScoreCard(),
+                )
               ],
             ),
           ),

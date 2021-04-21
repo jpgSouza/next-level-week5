@@ -10,6 +10,7 @@ class AppColors {
   static final Color chartSecondary = Color(0xFFE1E6E3);
   static final Color chartPrimary = darkGreen;
   static final Color stroke = Color(0xFF7149CD);
+  static final Color cardStroke = Color(0xFFE1E1E5);
 
   //Greens
   static final Color lightGreen = Color(0xFFE1F5EC);
